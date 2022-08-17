@@ -1,6 +1,6 @@
 const app = Vue.createApp ({
     data: ()=> ({
-        message: "Hello PiyoPiyo!"
+        message: 'Hello <span style="color:red;">PiyoPiyo!</span>'
     }),
     methods: {
         clickHandler: function(event) {
